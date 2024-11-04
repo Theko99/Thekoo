@@ -1,0 +1,91 @@
+
+p{
+					font-size: 30px;
+}
+header {
+   
+    padding: 50px 20px;
+    background-color:#4a90e2;
+    color:white;
+}
+nav-links {
+	                display: flex;
+  					padding:2% 6% ;
+  					justify-content: space-between;
+  					align align-items: center;
+  					color: white;
+  		
+
+}
+.font-style{
+ 				    font-family: "Playfair Display", serif;
+}
+
+nav-links{
+  					flex:1;
+  					text-align: right;	
+  					text-size: 30px;
+  				
+}
+.nav-links ul li{
+  					 list-style: none;
+  					 display: inline-block;
+  					 padding: 8px 12px;
+  					 position: relative;
+}
+.nav-links ul li a{
+   					color: white;
+   					text-decoration: none;
+   					font-size: 30px;
+   
+
+ }
+.nav-links ul li::after {
+					content:'';
+					width:0%;
+					height:2px;
+					background:yellow;
+					display:block;
+					margin:auto;
+					transition:0.5s;
+ }
+ .nav-links ul li:hover::after{
+ 				width:100%;	
+ }
+ body{
+ 	    			background-color: white;
+ 		  			background-size: cover;
+ 					position: relative;
+ 					color: black;
+}
+.destinations{
+					font-size: 30px
+			
+}
+img{
+					cursor: pointer;
+}
+
+.link-button{
+					display: inline-block;
+					text-decoration: none;
+					color: black;
+					border:1px solid white;
+					padding:12px 34px;
+					font-size: 20px;
+					background:transparent;
+					position: relative;
+					cursor: pointer;
+}
+.link-button:hover{
+					border: 1px solid black;
+					background: burlywood;
+					transition:1s;
+
+}
+footer {
+    				text-align: center;
+   					padding: 20px;
+  				    background-color:#4a90e2;
+    				color: white;
+}
